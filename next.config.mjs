@@ -6,6 +6,14 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'villascroatia.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'blog.buyerselect.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'encrypted-tbn0.gstatic.com',
+      },
     ],
   },
 };
