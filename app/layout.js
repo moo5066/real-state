@@ -31,9 +31,8 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
       <nav className="flex justify-around w-full text-black items-center h-16 bg-white shadow-sm">
-      {/* desktop */}
       <div  className="flex space-x-2 w-50 text-blue-500  ">
-<AiTwotoneHome className="text-2xl " />
+<AiTwotoneHome className="text-3xl" />
 <h1 className="text-xl font-bold hover:border-b border-blue-500">RealEstate</h1>
  </div>
 <ul className="flex space-x-4 px-2">
@@ -45,7 +44,7 @@ export default function RootLayout({ children }) {
 <div className="flex space-x-4 p-1 w-100 justify-end">
 <FaRegHeart className="text-2xl flex items-center"/>
 <div className="flex space-x-2 items-center bg-blue-500 text-white p-2 rounded-lg transition-transform duration-300 hover:scale-105 cursor-pointer">
-<LuUser className="text-2xl"/>
+<LuUser size={30}/>
 <Link href="#">Sign In</Link>
 </div>
 </div>

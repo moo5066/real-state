@@ -1,13 +1,15 @@
+'use client'
 import React from 'react'
 import { CiSearch } from "react-icons/ci";
 // import { CiHeart } from "react-icons/ci";
 import { Heart, MapPin, Bed, Bath, Square, } from 'lucide-react'; // Using lucide-react for icons
-import Image from 'next/image';
+ import Image from 'next/image';
 import { FiMapPin } from "react-icons/fi";
 import { LuBed } from "react-icons/lu";
-import { LuBath } from "react-icons/lu";
-import { FaRegSquare } from "react-icons/fa";
+ import { LuBath } from "react-icons/lu";
+ import { FaRegSquare } from "react-icons/fa";
 import Link from 'next/link';
+// import { useState } from 'react';
 
 
 
@@ -16,6 +18,7 @@ import Link from 'next/link';
 
 
 const page = () => {
+  // const [shaw , setShaw] = useState(false)
   return (
     <div className='text-black'>
       <div className='bg-blue-600 w-full h-100'>
