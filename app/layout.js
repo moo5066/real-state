@@ -36,10 +36,10 @@ export default function RootLayout({ children }) {
 <h1 className="text-xl font-bold hover:border-b border-blue-500">RealEstate</h1>
  </div>
 <ul className="flex space-x-4 px-2">
-<Link className=" hover:border-b border-gray-500" href="/buy">Buy</Link>  
-<Link className=" hover:border-b border-gray-500" href="/rent">Rent</Link>  
-<Link className=" hover:border-b border-gray-500" href="/sell">Sell</Link>  
-<Link className=" hover:border-b border-gray-500" href="/about">About</Link>  
+<Link className=" hover:border-b border-gray-500" href="/components/buy">Buy</Link>  
+<Link className=" hover:border-b border-gray-500" href="/components/rent">Rent</Link>  
+<Link className=" hover:border-b border-gray-500" href="/components/sell">Sell</Link>  
+<Link className=" hover:border-b border-gray-500" href="/components/about">About</Link>  
 </ul>
 <div className="flex space-x-4 p-1 w-100 justify-end">
 <FaRegHeart className="text-2xl flex items-center"/>
